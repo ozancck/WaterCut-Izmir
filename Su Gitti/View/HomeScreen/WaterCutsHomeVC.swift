@@ -55,6 +55,7 @@ class WaterCutsHomeVC: UIViewController, UITableViewDelegate, UITableViewDataSou
         
         
     }
+
     
     
     func tableView(_ tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
@@ -74,20 +75,42 @@ class WaterCutsHomeVC: UIViewController, UITableViewDelegate, UITableViewDataSou
         cell.title.text = filteredWaterCuts[indexPath.row].IlceAdi
         cell.desc.text = filteredWaterCuts[indexPath.row].Mahalleler.lowercased()
         cell.imageview.image = UIImage(systemName: "drop.circle.fill")
+        
         cell.imageview.tintColor = .red
+        
+            
         
         
         return cell
         
     }
     
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        // Get the new view controller using segue.destination.
+        // Pass the selected object to the new view controller.
+        
+        
+        
+        
+        if  segue.identifier == "WaterCutDetailsSegue" {
+            if let destination = segue.destination as? WaterCutDetails
+                ,let rowIndex = tableview.indexPathForSelectedRow?.row
+            {
+                
+                destination.waterCut = filteredWaterCuts[rowIndex]
+                
+                if let selectionIndexPath = tableview.indexPathForSelectedRow {
+                    tableview.deselectRow(at: selectionIndexPath, animated: true )
+                }
+            }
+        }
+    }
+    
     
     func updateUI() {
         tableview.reloadData()
       }
-    @objc private func refreshData(sender: AnyObject) {
-        
-    }
+  
     
     func searchBar(_ searchBar: UISearchBar, textDidChange searchText: String) {
         filteredWaterCuts = searchText.isEmpty ? viewModel.waterCuts : viewModel.waterCuts.filter { message in
