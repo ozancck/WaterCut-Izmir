@@ -28,13 +28,50 @@
                                     </connections>
                                 </searchBar>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="80" id="XbF-pY-NDh">
-                                        <rect key="frame" x="0.0" y="94" width="393" height="80"/>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="WaterCutsHomeTableViewCell" rowHeight="63" id="XbF-pY-NDh" customClass="WaterCutsHomeTableViewCell" customModule="Su_Gitti" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="94" width="393" height="63"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="XbF-pY-NDh" id="aCV-tX-MuH">
-                                            <rect key="frame" x="0.0" y="0.0" width="393" height="80"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="393" height="63"/>
                                             <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="MIB-yC-X7m">
+                                                    <rect key="frame" x="20" y="10" width="40" height="43"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" constant="40" id="jeL-G7-hdz"/>
+                                                        <constraint firstAttribute="height" constant="40" id="qQB-nx-TiJ"/>
+                                                    </constraints>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="KARSIYAKA" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="j58-z0-9UA">
+                                                    <rect key="frame" x="70" y="10" width="298" height="21"/>
+                                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="marmara, edirne, istanbul" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BGB-GB-bSj">
+                                                    <rect key="frame" x="70" y="36" width="298" height="17"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstAttribute="bottom" secondItem="BGB-GB-bSj" secondAttribute="bottom" constant="10" id="DYE-SR-t3c"/>
+                                                <constraint firstItem="j58-z0-9UA" firstAttribute="leading" secondItem="MIB-yC-X7m" secondAttribute="trailing" constant="10" id="G0a-Y0-8gk"/>
+                                                <constraint firstItem="j58-z0-9UA" firstAttribute="top" secondItem="aCV-tX-MuH" secondAttribute="top" constant="10" id="ITw-uu-yR4"/>
+                                                <constraint firstItem="MIB-yC-X7m" firstAttribute="leading" secondItem="aCV-tX-MuH" secondAttribute="leading" constant="20" symbolic="YES" id="MGW-20-X35"/>
+                                                <constraint firstItem="j58-z0-9UA" firstAttribute="top" secondItem="MIB-yC-X7m" secondAttribute="top" id="PJy-6c-twi"/>
+                                                <constraint firstItem="BGB-GB-bSj" firstAttribute="leading" secondItem="j58-z0-9UA" secondAttribute="leading" id="Uug-TW-SFz"/>
+                                                <constraint firstItem="MIB-yC-X7m" firstAttribute="centerY" secondItem="aCV-tX-MuH" secondAttribute="centerY" id="VgI-bl-zt8"/>
+                                                <constraint firstAttribute="trailing" secondItem="j58-z0-9UA" secondAttribute="trailing" constant="25" id="oX4-We-RXU"/>
+                                                <constraint firstItem="BGB-GB-bSj" firstAttribute="trailing" secondItem="j58-z0-9UA" secondAttribute="trailing" id="zcQ-eb-FMQ"/>
+                                            </constraints>
                                         </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="desc" destination="BGB-GB-bSj" id="2Jc-WC-GuU"/>
+                                            <outlet property="imageview" destination="MIB-yC-X7m" id="thQ-fY-YEB"/>
+                                            <outlet property="title" destination="j58-z0-9UA" id="jGc-eR-rps"/>
+                                        </connections>
                                     </tableViewCell>
                                 </prototypes>
                             </tableView>
@@ -48,6 +85,10 @@
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="NG7-yD-7FD" secondAttribute="trailing" id="yR8-4f-FG6"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="searchbar" destination="FRu-Tx-cD0" id="xqh-54-Rdp"/>
+                        <outlet property="tableview" destination="NG7-yD-7FD" id="G7n-ie-cNU"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>

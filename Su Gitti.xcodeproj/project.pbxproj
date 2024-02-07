@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		315449F62B73DEE400F7AE54 /* WaterCutsHomeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 315449F52B73DEE400F7AE54 /* WaterCutsHomeTableViewCell.swift */; };
 		31F9A5AA2B7130CE00CAC2E8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31F9A5A92B7130CE00CAC2E8 /* AppDelegate.swift */; };
 		31F9A5AC2B7130CE00CAC2E8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31F9A5AB2B7130CE00CAC2E8 /* SceneDelegate.swift */; };
 		31F9A5AE2B7130CE00CAC2E8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31F9A5AD2B7130CE00CAC2E8 /* ViewController.swift */; };
@@ -41,6 +42,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		315449F52B73DEE400F7AE54 /* WaterCutsHomeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterCutsHomeTableViewCell.swift; sourceTree = "<group>"; };
 		31F9A5A62B7130CE00CAC2E8 /* Su Gitti.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Su Gitti.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		31F9A5A92B7130CE00CAC2E8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		31F9A5AB2B7130CE00CAC2E8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -161,6 +163,7 @@
 			isa = PBXGroup;
 			children = (
 				31F9A5E62B71346400CAC2E8 /* WaterCutsHomeVC.swift */,
+				315449F52B73DEE400F7AE54 /* WaterCutsHomeTableViewCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -312,6 +315,7 @@
 			files = (
 				31F9A5AE2B7130CE00CAC2E8 /* ViewController.swift in Sources */,
 				31F9A5AA2B7130CE00CAC2E8 /* AppDelegate.swift in Sources */,
+				315449F62B73DEE400F7AE54 /* WaterCutsHomeTableViewCell.swift in Sources */,
 				31F9A5E52B71342000CAC2E8 /* WaterCutsHomeViewModel.swift in Sources */,
 				31F9A5DE2B71315200CAC2E8 /* ApiService.swift in Sources */,
 				31F9A5AC2B7130CE00CAC2E8 /* SceneDelegate.swift in Sources */,
