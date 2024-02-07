@@ -16,6 +16,11 @@
 		31F9A5C12B7130D000CAC2E8 /* Su_GittiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31F9A5C02B7130D000CAC2E8 /* Su_GittiTests.swift */; };
 		31F9A5CB2B7130D000CAC2E8 /* Su_GittiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31F9A5CA2B7130D000CAC2E8 /* Su_GittiUITests.swift */; };
 		31F9A5CD2B7130D000CAC2E8 /* Su_GittiUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31F9A5CC2B7130D000CAC2E8 /* Su_GittiUITestsLaunchTests.swift */; };
+		31F9A5DE2B71315200CAC2E8 /* ApiService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31F9A5DD2B71315200CAC2E8 /* ApiService.swift */; };
+		31F9A5E02B71319800CAC2E8 /* WaterCut.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31F9A5DF2B71319800CAC2E8 /* WaterCut.swift */; };
+		31F9A5E32B71331F00CAC2E8 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 31F9A5E22B71331F00CAC2E8 /* Alamofire */; };
+		31F9A5E52B71342000CAC2E8 /* WaterCutsHomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31F9A5E42B71342000CAC2E8 /* WaterCutsHomeViewModel.swift */; };
+		31F9A5E72B71346400CAC2E8 /* WaterCutsHomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31F9A5E62B71346400CAC2E8 /* WaterCutsHomeVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +54,10 @@
 		31F9A5C62B7130D000CAC2E8 /* Su GittiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Su GittiUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		31F9A5CA2B7130D000CAC2E8 /* Su_GittiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Su_GittiUITests.swift; sourceTree = "<group>"; };
 		31F9A5CC2B7130D000CAC2E8 /* Su_GittiUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Su_GittiUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		31F9A5DD2B71315200CAC2E8 /* ApiService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiService.swift; sourceTree = "<group>"; };
+		31F9A5DF2B71319800CAC2E8 /* WaterCut.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterCut.swift; sourceTree = "<group>"; };
+		31F9A5E42B71342000CAC2E8 /* WaterCutsHomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterCutsHomeViewModel.swift; sourceTree = "<group>"; };
+		31F9A5E62B71346400CAC2E8 /* WaterCutsHomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterCutsHomeVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +65,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				31F9A5E32B71331F00CAC2E8 /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -99,6 +109,10 @@
 		31F9A5A82B7130CE00CAC2E8 /* Su Gitti */ = {
 			isa = PBXGroup;
 			children = (
+				31F9A5DC2B71313000CAC2E8 /* Service */,
+				31F9A5DB2B7130EE00CAC2E8 /* View */,
+				31F9A5DA2B7130E700CAC2E8 /* ViewModel */,
+				31F9A5D92B7130E000CAC2E8 /* Model */,
 				31F9A5A92B7130CE00CAC2E8 /* AppDelegate.swift */,
 				31F9A5AB2B7130CE00CAC2E8 /* SceneDelegate.swift */,
 				31F9A5AD2B7130CE00CAC2E8 /* ViewController.swift */,
@@ -127,6 +141,38 @@
 			path = "Su GittiUITests";
 			sourceTree = "<group>";
 		};
+		31F9A5D92B7130E000CAC2E8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				31F9A5DF2B71319800CAC2E8 /* WaterCut.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		31F9A5DA2B7130E700CAC2E8 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				31F9A5E42B71342000CAC2E8 /* WaterCutsHomeViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		31F9A5DB2B7130EE00CAC2E8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				31F9A5E62B71346400CAC2E8 /* WaterCutsHomeVC.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		31F9A5DC2B71313000CAC2E8 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				31F9A5DD2B71315200CAC2E8 /* ApiService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -143,6 +189,9 @@
 			dependencies = (
 			);
 			name = "Su Gitti";
+			packageProductDependencies = (
+				31F9A5E22B71331F00CAC2E8 /* Alamofire */,
+			);
 			productName = "Su Gitti";
 			productReference = 31F9A5A62B7130CE00CAC2E8 /* Su Gitti.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +264,9 @@
 				Base,
 			);
 			mainGroup = 31F9A59D2B7130CE00CAC2E8;
+			packageReferences = (
+				31F9A5E12B71331F00CAC2E8 /* XCRemoteSwiftPackageReference "Alamofire" */,
+			);
 			productRefGroup = 31F9A5A72B7130CE00CAC2E8 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -260,7 +312,11 @@
 			files = (
 				31F9A5AE2B7130CE00CAC2E8 /* ViewController.swift in Sources */,
 				31F9A5AA2B7130CE00CAC2E8 /* AppDelegate.swift in Sources */,
+				31F9A5E52B71342000CAC2E8 /* WaterCutsHomeViewModel.swift in Sources */,
+				31F9A5DE2B71315200CAC2E8 /* ApiService.swift in Sources */,
 				31F9A5AC2B7130CE00CAC2E8 /* SceneDelegate.swift in Sources */,
+				31F9A5E72B71346400CAC2E8 /* WaterCutsHomeVC.swift in Sources */,
+				31F9A5E02B71319800CAC2E8 /* WaterCut.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -607,6 +663,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		31F9A5E12B71331F00CAC2E8 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.8.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		31F9A5E22B71331F00CAC2E8 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 31F9A5E12B71331F00CAC2E8 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 31F9A59E2B7130CE00CAC2E8 /* Project object */;
 }
