@@ -30,6 +30,11 @@ class WaterCutsHomeVC: UIViewController, UITableViewDelegate, UITableViewDataSou
         searchbar.delegate = self
         
         
+        //self.tabBarItem.badgeValue = "Su kesintisi mevcut"
+        
+        
+        
+        
     
         
         
@@ -56,6 +61,7 @@ class WaterCutsHomeVC: UIViewController, UITableViewDelegate, UITableViewDataSou
         
     }
 
+   
     
     
     func tableView(_ tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
@@ -85,14 +91,16 @@ class WaterCutsHomeVC: UIViewController, UITableViewDelegate, UITableViewDataSou
         
     }
     
+   
+     
+    
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         // Get the new view controller using segue.destination.
         // Pass the selected object to the new view controller.
-        
-        
-        
+            
         
         if  segue.identifier == "WaterCutDetailsSegue" {
+            view.endEditing(true)
             if let destination = segue.destination as? WaterCutDetails
                 ,let rowIndex = tableview.indexPathForSelectedRow?.row
             {

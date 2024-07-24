@@ -7,10 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3142F1992C4BFDD4002389C1 /* MaviBayrak.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3142F1982C4BFDD4002389C1 /* MaviBayrak.swift */; };
+		3142F19C2C4BFE4A002389C1 /* MaviBayrakVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3142F19B2C4BFE4A002389C1 /* MaviBayrakVC.swift */; };
+		3142F19F2C4BFEAE002389C1 /* MaviBayrakCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3142F19D2C4BFEAE002389C1 /* MaviBayrakCell.swift */; };
+		3142F1A02C4BFEAE002389C1 /* MaviBayrakCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3142F19E2C4BFEAE002389C1 /* MaviBayrakCell.xib */; };
 		315449F62B73DEE400F7AE54 /* WaterCutsHomeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 315449F52B73DEE400F7AE54 /* WaterCutsHomeTableViewCell.swift */; };
 		315449FA2B73F08900F7AE54 /* WaterCutDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 315449F92B73F08900F7AE54 /* WaterCutDetails.swift */; };
 		315449FC2B740F9300F7AE54 /* MahallelerCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 315449FB2B740F9300F7AE54 /* MahallelerCollectionViewCell.swift */; };
 		315449FE2B74115900F7AE54 /* WaterCutDetailsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 315449FD2B74115900F7AE54 /* WaterCutDetailsViewModel.swift */; };
+		319B1B8C2C4C000600C0EE69 /* MaviBayrakViewModal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 319B1B8B2C4C000600C0EE69 /* MaviBayrakViewModal.swift */; };
+		319B1B8F2C4C06A700C0EE69 /* MaviBayrakDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 319B1B8E2C4C06A700C0EE69 /* MaviBayrakDetailVC.swift */; };
+		319B1B922C4C096000C0EE69 /* ImageViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 319B1B912C4C096000C0EE69 /* ImageViewExtension.swift */; };
+		319B1B952C4D5F9B00C0EE69 /* SVProgressHUD in Frameworks */ = {isa = PBXBuildFile; productRef = 319B1B942C4D5F9B00C0EE69 /* SVProgressHUD */; };
+		319B1B982C4D68ED00C0EE69 /* BusLocationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 319B1B972C4D68ED00C0EE69 /* BusLocationVC.swift */; };
+		319B1B9A2C4D694A00C0EE69 /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 319B1B992C4D694A00C0EE69 /* UIViewExtension.swift */; };
+		319B1B9C2C4D6B3600C0EE69 /* BusLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 319B1B9B2C4D6B3600C0EE69 /* BusLocation.swift */; };
+		319B1B9E2C4D6B5100C0EE69 /* BusLocationFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 319B1B9D2C4D6B5100C0EE69 /* BusLocationFetcher.swift */; };
 		31F9A5AA2B7130CE00CAC2E8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31F9A5A92B7130CE00CAC2E8 /* AppDelegate.swift */; };
 		31F9A5AC2B7130CE00CAC2E8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31F9A5AB2B7130CE00CAC2E8 /* SceneDelegate.swift */; };
 		31F9A5AE2B7130CE00CAC2E8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31F9A5AD2B7130CE00CAC2E8 /* ViewController.swift */; };
@@ -45,10 +57,21 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3142F1982C4BFDD4002389C1 /* MaviBayrak.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaviBayrak.swift; sourceTree = "<group>"; };
+		3142F19B2C4BFE4A002389C1 /* MaviBayrakVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaviBayrakVC.swift; sourceTree = "<group>"; };
+		3142F19D2C4BFEAE002389C1 /* MaviBayrakCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaviBayrakCell.swift; sourceTree = "<group>"; };
+		3142F19E2C4BFEAE002389C1 /* MaviBayrakCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MaviBayrakCell.xib; sourceTree = "<group>"; };
 		315449F52B73DEE400F7AE54 /* WaterCutsHomeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterCutsHomeTableViewCell.swift; sourceTree = "<group>"; };
 		315449F92B73F08900F7AE54 /* WaterCutDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterCutDetails.swift; sourceTree = "<group>"; };
 		315449FB2B740F9300F7AE54 /* MahallelerCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MahallelerCollectionViewCell.swift; sourceTree = "<group>"; };
 		315449FD2B74115900F7AE54 /* WaterCutDetailsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterCutDetailsViewModel.swift; sourceTree = "<group>"; };
+		319B1B8B2C4C000600C0EE69 /* MaviBayrakViewModal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaviBayrakViewModal.swift; sourceTree = "<group>"; };
+		319B1B8E2C4C06A700C0EE69 /* MaviBayrakDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaviBayrakDetailVC.swift; sourceTree = "<group>"; };
+		319B1B912C4C096000C0EE69 /* ImageViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewExtension.swift; sourceTree = "<group>"; };
+		319B1B972C4D68ED00C0EE69 /* BusLocationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusLocationVC.swift; sourceTree = "<group>"; };
+		319B1B992C4D694A00C0EE69 /* UIViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExtension.swift; sourceTree = "<group>"; };
+		319B1B9B2C4D6B3600C0EE69 /* BusLocation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusLocation.swift; sourceTree = "<group>"; };
+		319B1B9D2C4D6B5100C0EE69 /* BusLocationFetcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusLocationFetcher.swift; sourceTree = "<group>"; };
 		31F9A5A62B7130CE00CAC2E8 /* Su Gitti.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Su Gitti.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		31F9A5A92B7130CE00CAC2E8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		31F9A5AB2B7130CE00CAC2E8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -73,6 +96,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				319B1B952C4D5F9B00C0EE69 /* SVProgressHUD in Frameworks */,
 				31F9A5E32B71331F00CAC2E8 /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -94,6 +118,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3142F19A2C4BFE39002389C1 /* MaviBayrak */ = {
+			isa = PBXGroup;
+			children = (
+				319B1B8D2C4C058B00C0EE69 /* Mavi Bayrak Detail */,
+				3142F19B2C4BFE4A002389C1 /* MaviBayrakVC.swift */,
+				3142F19D2C4BFEAE002389C1 /* MaviBayrakCell.swift */,
+				3142F19E2C4BFEAE002389C1 /* MaviBayrakCell.xib */,
+			);
+			path = MaviBayrak;
+			sourceTree = "<group>";
+		};
 		315449FF2B741FE400F7AE54 /* HomeScreen */ = {
 			isa = PBXGroup;
 			children = (
@@ -110,6 +145,32 @@
 				315449FB2B740F9300F7AE54 /* MahallelerCollectionViewCell.swift */,
 			);
 			path = DetailScreen;
+			sourceTree = "<group>";
+		};
+		319B1B8D2C4C058B00C0EE69 /* Mavi Bayrak Detail */ = {
+			isa = PBXGroup;
+			children = (
+				319B1B8E2C4C06A700C0EE69 /* MaviBayrakDetailVC.swift */,
+			);
+			path = "Mavi Bayrak Detail";
+			sourceTree = "<group>";
+		};
+		319B1B902C4C095400C0EE69 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				319B1B912C4C096000C0EE69 /* ImageViewExtension.swift */,
+				319B1B992C4D694A00C0EE69 /* UIViewExtension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		319B1B962C4D68DD00C0EE69 /* BusLocation */ = {
+			isa = PBXGroup;
+			children = (
+				319B1B972C4D68ED00C0EE69 /* BusLocationVC.swift */,
+				319B1B9D2C4D6B5100C0EE69 /* BusLocationFetcher.swift */,
+			);
+			path = BusLocation;
 			sourceTree = "<group>";
 		};
 		31F9A59D2B7130CE00CAC2E8 = {
@@ -135,6 +196,7 @@
 		31F9A5A82B7130CE00CAC2E8 /* Su Gitti */ = {
 			isa = PBXGroup;
 			children = (
+				319B1B902C4C095400C0EE69 /* Extension */,
 				31F9A5DC2B71313000CAC2E8 /* Service */,
 				31F9A5DB2B7130EE00CAC2E8 /* View */,
 				31F9A5DA2B7130E700CAC2E8 /* ViewModel */,
@@ -171,6 +233,8 @@
 			isa = PBXGroup;
 			children = (
 				31F9A5DF2B71319800CAC2E8 /* WaterCut.swift */,
+				3142F1982C4BFDD4002389C1 /* MaviBayrak.swift */,
+				319B1B9B2C4D6B3600C0EE69 /* BusLocation.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -180,6 +244,7 @@
 			children = (
 				31F9A5E42B71342000CAC2E8 /* WaterCutsHomeViewModel.swift */,
 				315449FD2B74115900F7AE54 /* WaterCutDetailsViewModel.swift */,
+				319B1B8B2C4C000600C0EE69 /* MaviBayrakViewModal.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -187,6 +252,8 @@
 		31F9A5DB2B7130EE00CAC2E8 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				319B1B962C4D68DD00C0EE69 /* BusLocation */,
+				3142F19A2C4BFE39002389C1 /* MaviBayrak */,
 				31544A002B741FEB00F7AE54 /* DetailScreen */,
 				315449FF2B741FE400F7AE54 /* HomeScreen */,
 			);
@@ -219,6 +286,7 @@
 			name = "Su Gitti";
 			packageProductDependencies = (
 				31F9A5E22B71331F00CAC2E8 /* Alamofire */,
+				319B1B942C4D5F9B00C0EE69 /* SVProgressHUD */,
 			);
 			productName = "Su Gitti";
 			productReference = 31F9A5A62B7130CE00CAC2E8 /* Su Gitti.app */;
@@ -294,6 +362,7 @@
 			mainGroup = 31F9A59D2B7130CE00CAC2E8;
 			packageReferences = (
 				31F9A5E12B71331F00CAC2E8 /* XCRemoteSwiftPackageReference "Alamofire" */,
+				319B1B932C4D5F9B00C0EE69 /* XCRemoteSwiftPackageReference "SVProgressHUD" */,
 			);
 			productRefGroup = 31F9A5A72B7130CE00CAC2E8 /* Products */;
 			projectDirPath = "";
@@ -313,6 +382,7 @@
 			files = (
 				31F9A5B62B7130D000CAC2E8 /* LaunchScreen.storyboard in Resources */,
 				31F9A5B32B7130D000CAC2E8 /* Assets.xcassets in Resources */,
+				3142F1A02C4BFEAE002389C1 /* MaviBayrakCell.xib in Resources */,
 				31F9A5B12B7130CE00CAC2E8 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -338,14 +408,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3142F19C2C4BFE4A002389C1 /* MaviBayrakVC.swift in Sources */,
 				31F9A5AE2B7130CE00CAC2E8 /* ViewController.swift in Sources */,
+				3142F19F2C4BFEAE002389C1 /* MaviBayrakCell.swift in Sources */,
 				31F9A5AA2B7130CE00CAC2E8 /* AppDelegate.swift in Sources */,
 				315449F62B73DEE400F7AE54 /* WaterCutsHomeTableViewCell.swift in Sources */,
+				319B1B8C2C4C000600C0EE69 /* MaviBayrakViewModal.swift in Sources */,
+				319B1B8F2C4C06A700C0EE69 /* MaviBayrakDetailVC.swift in Sources */,
+				319B1B9C2C4D6B3600C0EE69 /* BusLocation.swift in Sources */,
 				31F9A5E52B71342000CAC2E8 /* WaterCutsHomeViewModel.swift in Sources */,
+				319B1B982C4D68ED00C0EE69 /* BusLocationVC.swift in Sources */,
 				31F9A5DE2B71315200CAC2E8 /* ApiService.swift in Sources */,
 				31F9A5AC2B7130CE00CAC2E8 /* SceneDelegate.swift in Sources */,
+				319B1B9E2C4D6B5100C0EE69 /* BusLocationFetcher.swift in Sources */,
+				3142F1992C4BFDD4002389C1 /* MaviBayrak.swift in Sources */,
 				31F9A5E72B71346400CAC2E8 /* WaterCutsHomeVC.swift in Sources */,
+				319B1B9A2C4D694A00C0EE69 /* UIViewExtension.swift in Sources */,
 				315449FE2B74115900F7AE54 /* WaterCutDetailsViewModel.swift in Sources */,
+				319B1B922C4C096000C0EE69 /* ImageViewExtension.swift in Sources */,
 				315449FC2B740F9300F7AE54 /* MahallelerCollectionViewCell.swift in Sources */,
 				31F9A5E02B71319800CAC2E8 /* WaterCut.swift in Sources */,
 				315449FA2B73F08900F7AE54 /* WaterCutDetails.swift in Sources */,
@@ -528,16 +608,20 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = LD92982N8X;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = LD92982N8X;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Su Gitti/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -545,6 +629,8 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.ozan.Su-Gitti";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = "Su Gitti";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -556,16 +642,20 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = LD92982N8X;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = LD92982N8X;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Su Gitti/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -573,6 +663,8 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.ozan.Su-Gitti";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = "Su Gitti";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -697,6 +789,14 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
+		319B1B932C4D5F9B00C0EE69 /* XCRemoteSwiftPackageReference "SVProgressHUD" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SVProgressHUD/SVProgressHUD";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.3.1;
+			};
+		};
 		31F9A5E12B71331F00CAC2E8 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/Alamofire/Alamofire";
@@ -708,6 +808,11 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		319B1B942C4D5F9B00C0EE69 /* SVProgressHUD */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 319B1B932C4D5F9B00C0EE69 /* XCRemoteSwiftPackageReference "SVProgressHUD" */;
+			productName = SVProgressHUD;
+		};
 		31F9A5E22B71331F00CAC2E8 /* Alamofire */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 31F9A5E12B71331F00CAC2E8 /* XCRemoteSwiftPackageReference "Alamofire" */;
